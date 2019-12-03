@@ -1,0 +1,134 @@
+
+<html>
+<head>
+    <title>registration</title>
+    <script type="text/JavaScript" src="Script.js"></script>
+	
+
+<body>
+<fieldset>
+    <legend><b>REGISTRATION</b></legend>
+	<form>
+		<br/>
+		<table width="100%" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>Name</td>
+				<td>:</td>
+				<td><input type="text" name="name" id="name"></td>
+				<td></td>
+			</tr>		
+			<tr><td colspan="4"><hr/></td></tr>
+			<tr>
+				<td>Email</td>
+				<td>:</td>
+				<td>
+					 <input type="text" name="email" id="email">
+					<abbr title="hint: sample@example.com"><b>i</b></abbr>
+				</td>
+				<td></td>
+			</tr>		
+			<tr><td colspan="4"><hr/></td></tr>
+			<tr>
+				<td>User Name</td>
+				<td>:</td>
+				<td><input type="text" name="name" id="username"></td>
+				<td></td>
+			</tr>		
+			<tr><td colspan="4"><hr/></td></tr>
+			<tr>
+				<td>Password</td>
+				<td>:</td>
+				<td><input type="password" name="name" id="password"></td>
+				<td></td>
+			</tr>		
+			<tr><td colspan="4"><hr/></td></tr>
+			<tr>
+				<td>confirmPassword</td>
+				<td>:</td>
+				<td><input name="confirmPassword" type="password" id="confirmPassword"></td>
+				<td></td>
+			</tr>
+            <tr><td colspan="4"><hr/></td></tr>			
+			 <tr>
+				<td>Profile Picture(User ID)</td>
+				<td>:</td>
+				<td><input type="text" name="profilepicture" id="profilepicture"><br>
+				<input type="file">
+				</td>
+				
+				<td></td>
+			</tr>	
+			<tr><td colspan="4"><hr/></td></tr>
+			<tr>
+				<td colspan="3">
+					<fieldset>
+						<legend>Gender</legend>    
+						<input type="radio" name="gender" value="Male" id="gender"> MALE
+                        <input type="radio" name="gender" value="Female" id="gender"> FEMALE
+                        <input type="radio" name="gender" value="Female" id ="gender"> OTHER
+					</fieldset>
+				</td>
+				<td></td>
+			</tr>		
+			
+			<tr><td colspan="4"><hr/></td></tr>
+			<tr>
+				<td colspan="3">
+					<fieldset>
+						
+						<legend>Date of Birth</legend>    
+							<input type="text" size="2" id="day" />/
+							<input type="text" size="2" id="month" />/
+							<input type="text" size="4" id="year" />
+							<font size="2"><i>(dd/mm/yyyy)</i></font>
+					</fieldset>
+				</td>
+			<tr><td colspan="4"><hr/></td></tr>
+			<tr>
+				<td colspan="3">
+					<fieldset>
+						<legend>Degree</legend>    
+						<input name="ssc" type="radio" value="ssc" id="s">Ssc
+						<input name="hsc" type="radio" value="hsc" id="h">Hsc
+						<input name="bsc" type="radio" value="bsc" id="b">Bsc
+					</fieldset>
+				</td>
+				<td></td>
+			</tr>		
+				<td></td>
+			</tr>
+			
+			<tr><td colspan="4"><hr/></td></tr>
+			<tr>
+				<td>Blood Group</td>
+				<td>:</td>
+				<td>
+					 <select name="group" id="group">
+            <option value=""></option>
+                
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select> <br>
+           
+					
+				</td>
+				<td></td>
+			</tr>		
+			
+		</table>
+		<hr/>
+		 <input type="submit" name="submit" value="SUBMIT" onclick="validation()">
+        <input type="reset" name="reset" value="Reset">
+	</form>
+</fieldset>
+
+
+</body>
+</head>
+</html>
